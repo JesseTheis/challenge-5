@@ -1,0 +1,28 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.swim-lanes {
+  min-height: 60vh;
+}
+
+.task-card {
+  margin: 0 auto;
+}
+
+.task-card:hover {
+  cursor: grab;
+}
+
+#formModal{
+  border: 1px solid black;
+  position: absolute;
+  display: none;
+  z-index: 5;
+  top: 0;
+  background-color: white;
+  margin: 0 auto;
+  width: 500px;
+  height: 300px;
+}
